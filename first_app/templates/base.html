@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+	<title>PRO BOY APP ONE</title>
+</head>
+<body bgcolor="cyan">
+
+{% block content %}
+<h1> Yo Bro! {{name}}</h1>
+
+<form action="add">
+	<h1> Enter Number One: </h1> <input type="text" name="number_one" id='input_box_one'><br>
+	<h1> Enter Number Two: </h1> <input type="text" name="number_two" id='input_box_two'>
+	<input type = "submit">
+</form>
+
+{% endblock %}
+
+</body>
+</html>
